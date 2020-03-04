@@ -11,6 +11,6 @@
         </h1>
     <a href="/Video/Create">Agregar Video</a>
      <a href="/Video/Delete">Eliminar Video</a>
-
+     <a href="/Video/Edit">Modificar Video</a>
 </body>
 </html>
