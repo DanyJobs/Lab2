@@ -43,4 +43,12 @@ END
 
 
 EXEC sp_video_eliminar 1
-SELECT * FROM video
+
+select *from video
+
+CREATE PROCEDURE sp_video_buscar
+@idVideo int
+as
+select * from video where idVideo=@idVideo
+
+exec sp_video_buscar 1

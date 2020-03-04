@@ -4,18 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Resultado</title>
 </head>
 <body>
- <h1>  Mi lista</h1>
-    <p>Hay <%:((System.Data.DataTable)ViewData["datavideo"]).Rows.Count %> videos </p> 
-    <br />
     <% foreach (System.Data.DataRow ren in ((System.Data.DataTable)ViewData["datavideo"]).Rows)
-    {%>
-    <p><%: ren["titulo"].ToString() %> </p> 
-   <iframe width="560" height="315" src="<%:ren["url"].ToString()%>" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-    picture-in-picture" allowfullscreen></iframe>
+    {%> 
+    <p>Titulo: <%: ren["titulo"].ToString() %> </p> 
+    <p>No.Reproducciones: <%: ren["reproducciones"].ToString()%> </p> 
+    <p>Url: <%: ren["url"].ToString()%> </p> 
+
+    <iframe width="560" height="315" src="<%:ren["url"].ToString()%>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     <% }%> 
 </body>
 </html>
