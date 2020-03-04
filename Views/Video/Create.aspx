@@ -5,11 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
     <title>Registrar Video</title>
-    <meta charset="UTF-8">
-  <meta name="description" content="ASP.NET MVC 2 CRUD Video">
-  <meta name="keywords" content="ASP.NET, MVC, Facpya">
-  <meta name="author" content="Angel Alejandro Escamilla Villarreal">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"></meta>
+  <meta name="description" content="ASP.NET MVC 2 CRUD Video"></meta>
+  <meta name="keywords" content="ASP.NET, MVC, Facpya"></meta>
+  <meta name="author" content="Juan Daniel Ma5ta Lopez"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
