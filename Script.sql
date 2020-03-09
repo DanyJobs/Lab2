@@ -17,7 +17,7 @@ BEGIN
 INSERT INTO video VALUES (@idVideo,@titulo,@reproducciones,@url)
 END
 
-EXEC sp_video_insertar 1,'video 1', 1, 'youtube.com'
+EXEC sp_video_insertar 1,'video 1', 1, 'https://www.youtube.com/embed/5KJzA5iGBDI'
 
 
 CREATE PROCEDURE sp_video_actualizar
@@ -49,6 +49,14 @@ select *from video
 CREATE PROCEDURE sp_video_buscar
 @idVideo int
 as
+begin
 select * from video where idVideo=@idVideo
-
+end
 exec sp_video_buscar 1
+
+
+CREATE PROCEDURE sp_video_lista
+as
+begin
+select * from video 
+end

@@ -8,7 +8,7 @@
         <meta charset="UTF-8"></meta>
         <meta name="description" content="ASP.NET MVC 2 CRUD Video"></meta>
         <meta name="keywords" content="ASP.NET, MVC, Facpya"></meta>
-        <meta name="author" content="Juan Daniel Ma5ta Lopez"></meta>
+        <meta name="author" content="Juan Daniel Mata Lopez"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 </head>
 <body>
