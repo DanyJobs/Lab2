@@ -10,8 +10,12 @@
         <meta name="keywords" content="ASP.NET, MVC, Facpya"></meta>
         <meta name="author" content="Juan Daniel Mata Lopez"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link href="../../Content/divs.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
+     <div  class="top">
     <form action="/Video/Delete" method="post">
     <fieldset>
     <legend> Datos del Video</legend>
@@ -20,5 +24,6 @@
         <input type="submit" value="Eliminar" />
     </fieldset>
     </form>
+         </div>
 </body>
 </html>

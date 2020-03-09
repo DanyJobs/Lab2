@@ -11,8 +11,10 @@
   <meta name="author" content="Juan Daniel Mata Lopez"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/divs.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+ <div  class="top">
     <form action="/Video/Search" method="post">
     <fieldset>
     <legend> Datos del Video</legend>
@@ -23,7 +25,8 @@
     </fieldset>
     </form>
     <br />
-   
+
+        </div>
 
 </body>
 </html>
